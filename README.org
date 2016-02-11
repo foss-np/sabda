@@ -1,0 +1,5 @@
+#+TITLE: sabda
+#+DESCRIPTION: synced lyrics
+
+Sabda is the collection of time synced lyrics, mostly in [[https://en.wikipedia.org/wiki/LRC_%28file_format%29][lrc
+format]]. The *LRC* format is text-based and similar to subtitle files.
