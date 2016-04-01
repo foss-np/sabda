@@ -1,13 +1,12 @@
-#Title: SABDA
+# Title: SABDA
 _____________________________________________
-#What is  SABDA? 
-### ~ Synced Nepali Lyrics Collection (Community collected) 
+## What is  *SABDA?* 
+###  *Synced Nepali Lyrics Collection (community collected)*
 
 Sabda is the collection of timestamped synced lyrics, mostly in [LRC Format](https://en.wikipedia.org/wiki/LRC_%28file_format%29). The *LRC* format is text-based and similar to subtitle files.
 
 _____________________________________________
-##Tools for creating *.LRC* Files
-### ~ Tools###
+###  Tools : 
 
 - [Online: LRC-Generator](http://lrcgenerator.com/)
 - [Online: eLRC-Maker](https://github.com/miracle2k/elrc-maker)
@@ -15,16 +14,14 @@ _____________________________________________
 - [Software: LRC-Editor](https://sourceforge.net/projects/lrceditor/)
 
 _____________________________________________
-##Testing the *.LRC* Files
-### ~ Media Player
+###  Media Player :
 
 - [Add if you know any](https://google.com)
 - [Add here Android Player](https://google.com)
 - [Add here iOs Player](https://google.com)
 
-_____________________________________________
-##Sample *.LRC* 
-### ~ Default format
+_____________________________________________ 
+###  Default format :
 
 ```
 [ti:Title Here]
@@ -38,3 +35,5 @@ _____________________________________________
 [03:30.00] hu hu hu..
 [04.00.23] The End!
 ```
+## How to contribute?
+ Add details here... 
