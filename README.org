@@ -1,39 +1,50 @@
-# Title: SABDA
-_____________________________________________
-## What is  *SABDA?* 
-###  *Synced Nepali Lyrics Collection (community collected)*
+#+TITLE: sabda
 
-Sabda is the collection of timestamped synced lyrics, mostly in [LRC Format](https://en.wikipedia.org/wiki/LRC_%28file_format%29). The *LRC* format is text-based and similar to subtitle files.
+the community maintained collection of lyrics.
 
-_____________________________________________
-###  Tools : 
+* Intro
 
-- [Online: LRC-Generator](http://lrcgenerator.com/)
-- [Online: eLRC-Maker](https://github.com/miracle2k/elrc-maker)
-- [Software: MiniLyrics](http://www.crintsoft.com/MiniLyrics.htm)
-- [Software: LRC-Editor](https://sourceforge.net/projects/lrceditor/)
+  We love to sing along with the song, but mostly us don't rememeber
+  lyrics, here we collect the lyrics of the popular song, time
+  synced/stamped.
 
-_____________________________________________
-###  Media Player :
 
-- [Add if you know any](https://google.com)
-- [Add here Android Player](https://google.com)
-- [Add here iOs Player](https://google.com)
+* Contribution
 
-_____________________________________________ 
-###  Default format :
+** What is *lrc* format?
 
-```
-[ti:Title Here]
-[ar:Artist Name]
-[al:Album Name]
-[la:NE]
+   The [[https://en.wikipedia.org/wiki/LRC_%28file_format%29][lrc format]] format is plain text-based time synced/stamped
+   lyrics file similar to subtitle but for audio.
 
-[00:00.00] Start!
-[01:10.00] la la la..
-[02:20.00] ho ho ho..
-[03:30.00] hu hu hu..
-[04.00.23] The End!
-```
-## How to contribute?
- Add details here... 
+** what does lrc format looks like?
+
+   #+BEGIN_SRC
+     [ti:Title Here]
+     [ar:Artist Name]
+     [al:Album Name]
+     [la:NE]
+
+     [00:00.00] Start!
+     [01:10.00] la la la..
+     [02:20.00] ho ho ho..
+     [03:30.00] hu hu hu..
+     [04.00.23] The End!
+   #+END_SRC
+
+
+** Are there any tool to make it?
+
+   Yes, there are, but any editor will do the trick.
+
+   Here are list of some them.
+
+   - Online [[http://lrcgenerator.com][LRC-Generator]]
+   - Online [[https://github.com/miracle2k/elrc-maker][eLRC-Maker]]
+   - Software [[http://www.crintsoft.com/MiniLyrics.htm][MiniLyrics]]
+   - Software [[https://sourceforge.net/projects/lrceditor/][LRC-Editor]]
+
+
+** What about traslation/tranliteration of the lyrics?
+
+   Yes we collect that too, some us have foreign friend, who just want
+   to know what that catchy song you sing all time.
