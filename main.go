@@ -6,7 +6,6 @@ import (
     "log"
     "os"
     "strings"
-//     "net/http"
 )
 
 func GetFiles(root string) []os.FileInfo {
@@ -74,6 +73,6 @@ func GenerateFiles(root string, outputRoot string) bool{
 }
 
 func main() {
-    GenerateFiles(".", "./pages")
-    GenerateHomePage()
+    GenerateFiles("../master/.", "../gh-pages/pages")
+    GenerateHomePage("../gh-pages/")
 }

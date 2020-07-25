@@ -18,7 +18,7 @@ type DirectoryPage struct {
 }
 
 func GenerateDirectoryPage(baseDir string, files []os.FileInfo, outputDir string) bool {
-    tmpl := template.Must(template.ParseFiles("src/templates/DirectoryPage.gohtml", "src/templates/NavigationBar.gohtml"))
+    tmpl := template.Must(template.ParseFiles("templates/DirectoryPage.gohtml", "templates/NavigationBar.gohtml"))
 
     FileNames := []File {}
     for _, file := range files {
@@ -54,7 +54,7 @@ func GenerateDetailPage(root string, title string, lines []string, outputFileNam
         FileName: title,
         Lines: lines,
     }
-    tmpl := template.Must(template.ParseFiles("src/templates/DetailsPage.gohtml", "src/templates/NavigationBar.gohtml"))
+    tmpl := template.Must(template.ParseFiles("templates/DetailsPage.gohtml", "templates/NavigationBar.gohtml"))
 
     f, err := os.Create(outputFileName)
     if err != nil {
@@ -66,10 +66,10 @@ func GenerateDetailPage(root string, title string, lines []string, outputFileNam
 }
 
 
-func GenerateHomePage() bool{
-    tmpl := template.Must(template.ParseFiles("src/templates/IndexPage.gohtml", "src/templates/NavigationBar.gohtml"))
+func GenerateHomePage(root string) bool{
+    tmpl := template.Must(template.ParseFiles("templates/IndexPage.gohtml", "templates/NavigationBar.gohtml"))
 
-    f, err := os.Create("./index.html")
+    f, err := os.Create(root + "index.html")
     if err != nil {
         log.Println("create file: ", err)
         return false
