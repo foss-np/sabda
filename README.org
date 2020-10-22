@@ -2,6 +2,8 @@
 
 The community maintained collection of nepali song lyrics.
 
+you can browser the lyric via [[http://foss-np.github.io/sabda/][gh-pages]] too.
+
 * Intro
 
   We love to sing along with the song, but mostly us don't rememeber
